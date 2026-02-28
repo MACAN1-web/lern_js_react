@@ -46,3 +46,9 @@
 //     return a1 * a2
 // }
 // console.log(calculateArea(12, 56))
+
+// function d1 (str){
+//     return str.length;
+// }
+// let d = d1('dghjo');
+// console.log(d)
