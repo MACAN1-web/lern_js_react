@@ -5,21 +5,21 @@
 
 // if (age >= 18 && age <= 65){
 //     console.log('Добро пожаловать!')
-// }else{
+// } else {
 //     console.log('Извините, доступ запрещен')
 // }
 /*
-    Работа с цыклом
+    Работа с циклом
 */
 // let num = 3;
-// for(let i = 1; i <= 10; i++){
+// for (let i = 1; i <= 10; i++){
 //     console.log(`${num} * ${i} = ${num * i}`)
 // }
 
 /*
-Создаем генератор случаного пароля  
+Создаем генератор случайного пароля  
 */
-// function fn (p){
+// function generatePassword (p){
 //     const pass =
 //     "qazxswcedvrHBUVYKMOLT648329#%*(*!@#())"
 //     let password ='';
@@ -30,25 +30,23 @@
 //     }
 //     return password;
 // }
-// const dwe = fn(90);
-// console.log(dwe)
+// const randomPassword = generatePassword(90);
+// console.log(randomPassword)
 //
 /*
  Стрелочная функция 
 */
-// function isEven (number){
-//     return number % 2 === 0 ? 'Четное':'нечетное';
-// }
-// let bro = isEven(7)
-// console.log(bro)
+// const isEven = (number) => number % 2 === 0 ? 'Четное':'нечетное';
 
-// function calculateArea (a1, a2){
-//     return a1 * a2
+// console.log(isEven(4))
+
+// function calculateArea (width, height){
+//     return width * height;
 // }
 // console.log(calculateArea(12, 56))
 
-// function d1 (str){
+// function getStringLength (str){
 //     return str.length;
 // }
-// let d = d1('dghjo');
-// console.log(d)
+// let stringLength = getStringLength('dghjo');
+// console.log(stringLength)
