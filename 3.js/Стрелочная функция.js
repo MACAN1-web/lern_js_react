@@ -1,6 +1,6 @@
 /*
  Стрелочная функция 
 */
-const isEven = (number) => number % 2 === 0 ? 'Четное':'нечетное';
+const isEven = (number) => number % 2 === 0
 
 console.log(isEven(4))
