@@ -19,3 +19,6 @@ Mustang.year = 2018;
 
 Camry.displayInfo();
 Mustang.displayInfo();
+
+let text = promt ('Сколько тебе лет?', 23)
+alert (`тебе ${text}`)
